@@ -19,7 +19,7 @@ public class Pedido {
 
 	private String nomeProduto;
 	private BigDecimal valorNegociado;
-	private LocalDate dataDaEntrega;
+	private LocalDate dataDaViagem;
 	private String urlProduto;
 	private String urlImagem;
 	private String descricao;
@@ -43,12 +43,12 @@ public class Pedido {
 		this.valorNegociado = valorNegociado;
 	}
 
-	public LocalDate getDataDaEntrega() {
-		return dataDaEntrega;
+	public LocalDate getDataDaViagem() {
+		return dataDaViagem;
 	}
 
-	public void setDataDaEntrega(LocalDate dataDaEntrega) {
-		this.dataDaEntrega = dataDaEntrega;
+	public void setDataDaViagem(LocalDate dataDaViagem) {
+		this.dataDaViagem = dataDaViagem;
 	}
 
 	public String getUrlProduto() {
